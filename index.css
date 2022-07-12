@@ -37,32 +37,40 @@ main{
     margin: 14vh 0;
 }
 
-.row1{
+.row1 {
     display: flex;
     flex-direction: row;
     width: 70%;
-    margin: 0 auto;
+    margin: 0px auto 10vh auto;
 }
+
+.row1 h1{
+    font-size: 6vmin;
+}
+
+.h2 h2{
+margin: 6vh 0h;
+font-size: 2.5rem;
+}
+
 
 .img img {
     margin-left: 2vw;
-    display: ;
-    width: 25em;
+    width: 31em;
     border-radius: 2em;
 }
 
 .row1 .writing{
-    width: 40%;
-    margin:  10vh  3vw;
+    margin:  10vh  0;
 }
 
 .writing p{
-    font-size: 1.8vmin;
+    font-size: 2vmin;
     margin: 3vh 0;
 }
 
 .writing button {
-    width: 26vw;
+    width: 32vw;
     background-color: #087f5b;
     color: white;
     text-align: left;
@@ -133,17 +141,17 @@ main{
     display: flex;
     flex-direction: row;
     width: 70%;
-    margin: 20vh auto;
+    margin: 3vh auto;
     
 }
 
 .row3 div {
-    width: 17em;
+    width: 19em;
     margin-right: 3em;
-    /* border: 1px solid darkgrey; */
     line-height: 5vh;
     box-shadow: 0px 0px 16px -3px darkgrey;
     text-align: justify;
+    padding-bottom: 1em;
 }
 
 
@@ -154,15 +162,46 @@ main{
 .cl img{
     border-radius: 1em;
     margin: 0 auto;
-    width: 17em;
+    width: 19em;
     border: none;
     
 }
 .row3 .cl {
     border: none;
     box-shadow: 0;
+    border-bottom: 0;
 }
 
+.row2 h3{
+    margin-left: 0;
+}
+
+.row3 span{
+margin: 0;
+}
+
+
+#babe span{
+
+    display: inline-block;
+    margin: 2em 10em;
+}
+
+.row3 button{
+margin-left: 4em;
+background-color: #087f5b;
+padding: 0.5em;
+border-radius: 0.4em;
+color: white;
+border: none;
+}
+
+@media (min-width) {
+    .row1{
+        
+    }
+    
+}
 
 
 

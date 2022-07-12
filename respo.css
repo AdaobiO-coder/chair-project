@@ -1,0 +1,118 @@
+@media (max-width: 475px) {
+    .row1{
+      flex-direction: column;  
+    }
+
+    .img img{
+        width: 20em;
+        margin: 0 auto;
+    }
+
+    .writing button {
+        width: 70vw;
+    }
+
+    .writing p {
+        font-size: 3vmin;
+    }
+
+    .h2 h2 {
+        font-size: 1.6rem;
+    }
+
+    .green{
+        flex-direction: column;
+        margin: 15vh auto;
+    }
+
+    .em + .em{
+        margin-left: 1em;
+    }
+
+    .h3 h2{
+        font-size: 1.6rem;
+    }
+
+    .row3{
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+
+    .row2 h3 {
+        font-size: 1rem;
+    }
+
+    .row2 p{
+        font-size: 1.53vh;
+
+    }
+
+    .row2 div{
+        justify-content: space-between;
+    }
+
+
+
+    .row3 div {
+        width: 19em;
+        margin: 2vh auto;
+        line-height: 5vh;
+        border: none;
+    }
+
+    .green h2 {
+       font-size: 1.6rem;
+    }
+
+    p{
+        font-size: 1.53vh;
+    }
+
+    #babe span {
+        margin: 2em 3em;
+        font-size: 0.7rem;
+    }
+
+    
+}
+
+@media (max-width: 414px) {
+    .green img{
+        width: 14em;
+    }
+    
+}
+
+@media (max-width:390px) {
+    .img img {
+        width: 17em;
+        
+    }
+}
+
+@media (max-width: 375px) {
+    .green img {
+        width: 13em;
+    }
+
+    .img img {
+        width: 17em;
+    }
+
+    .cl img {
+        width: 17em;
+    }
+    
+    .row3 div {
+        width: 17em;
+       
+    }
+
+    .green h2 {
+        font-size: 1.2rem;
+    }
+
+     
+}
