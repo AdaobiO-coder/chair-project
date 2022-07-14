@@ -1,3 +1,262 @@
+@media (max-width: 912px) {
+
+    main {
+        margin: 2vh 0;
+    }
+    .row1{
+        flex-direction: column;  
+      }
+  
+      .img img{
+          width: 36em;
+          margin: 0 auto;
+      }
+  
+      .writing button {
+          width: 70vw;
+      }
+  
+      .writing p {
+          font-size: 3vmin;
+      }
+  
+      .h2 h2 {
+        font-size: 1.7rem;
+    }
+  
+  
+      .row2 {
+          flex-direction: column;
+          margin: 5vh auto;
+      }
+  
+      .green{
+          flex-direction: column;
+          margin: 15vh auto;
+      }
+  
+      .green img {
+          width: 32em;
+      }
+  
+      
+  
+      .h3 h2{
+          font-size: 1.6rem;
+      }
+  
+      .row3{
+          flex-direction: column;
+          width: 70%;
+          margin: 0 auto;
+          
+      }
+  
+      .row2 h3 {
+          font-size: 2rem;
+      }
+  
+      .row2 p{
+          font-size: 1.9vh;
+  
+      }
+  
+      .row2 div{
+          justify-content: space-between;
+          margin-bottom: 5vh;
+      }
+  
+  
+  
+      .row3 div {
+          width: 100%;
+          margin: 2vh auto;
+          line-height: 5vh;
+          border: none;
+      }
+  
+      .green h2 {
+         font-size: 1.6rem;
+      }
+  
+      p {
+        font-size: 1.7vh;
+    }
+      #babe span {
+          margin: 2em 3em;
+          font-size: 0.7rem;
+      }
+  
+      .cl img {
+        width: 100%;
+        border: none;
+    }
+
+    #p {
+        font-size: 2.4em;
+        margin-top: 4vh;
+    }
+
+    .row3 button {     
+        font-size: 1.4rem;
+    }
+
+    #babe span {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (max-width: 820px) {
+    .row1{
+        flex-direction: column;  
+      }
+  
+      .img img{
+          width: 36em;
+          margin: 0 auto;
+      }
+  
+      .writing button {
+          width: 70vw;
+      }
+  
+      .writing p {
+          font-size: 3vmin;
+      }
+  
+      .h2 h2 {
+          font-size: 2.6rem;
+      }
+  
+  
+      .row2 {
+          flex-direction: column;
+          margin: 5vh auto;
+      }
+  
+      .green{
+          flex-direction: column;
+          margin: 15vh auto;
+      }
+  
+      .green img {
+          width: 32em;
+      }
+  
+      
+  
+      .h3 h2{
+          font-size: 1.6rem;
+      }
+  
+      .row3{
+          flex-direction: column;
+          width: 70%;
+          margin: 0 auto;
+          
+      }
+  
+      .row2 h3 {
+          font-size: 2rem;
+      }
+  
+      .row2 p{
+          font-size: 1.9vh;
+  
+      }
+  
+      .row2 div{
+          justify-content: space-between;
+          margin-bottom: 5vh;
+      }
+  
+  
+  
+      .row3 div {
+          width: 100%;
+          margin: 2vh auto;
+          line-height: 5vh;
+          border: none;
+      }
+  
+      .green h2 {
+         font-size: 1.6rem;
+      }
+  
+      p{
+          font-size: 2.53vh;
+      }
+  
+      #babe span {
+          margin: 2em 3em;
+          font-size: 0.7rem;
+      }
+  
+      .cl img {
+        width: 100%;
+        border: none;
+    }
+
+    #p {
+        font-size: 2.4em;
+        margin-top: 4vh;
+    }
+
+    .row3 button {     
+        font-size: 1.4rem;
+    }
+
+    #babe span {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .green img {
+        width: 29em;
+    }
+}
+
+@media (max-width: 540px) {
+    #p {
+        font-size: 1.4em;
+        /* margin-top: 4vh; */
+    }
+
+    .img img {
+        width: 23em;
+        margin: 0 auto;
+    }
+
+    #babe span {
+        font-size: 0.7rem;
+    }
+
+    .row3 button {
+        font-size: 1rem;
+    }
+
+    .green img {
+        width: 20em;
+    }
+
+    .row2 h3 {
+        font-size: 1.5rem;
+    }
+
+    .h2 h2 {
+        font-size: 2rem;
+    }
+
+    #p {
+        font-size: 1.4em;
+        margin-top: 4vh;
+    }
+}
+
+
+
 @media (max-width: 475px) {
     .row1{
       flex-direction: column;  
@@ -20,14 +279,24 @@
         font-size: 1.6rem;
     }
 
+
+    .row2 {
+        flex-direction: column;
+        margin: 5vh auto;
+    }
+
     .green{
         flex-direction: column;
         margin: 15vh auto;
     }
 
-    .em + .em{
-        margin-left: 1em;
+    .green img {
+        width: 12em;
     }
+
+    /* .em + .em{
+        margin-left: 1em;
+    } */
 
     .h3 h2{
         font-size: 1.6rem;
@@ -51,6 +320,7 @@
 
     .row2 div{
         justify-content: space-between;
+        margin-bottom: 5vh;
     }
 
 
@@ -75,14 +345,36 @@
         font-size: 0.7rem;
     }
 
+    #p {
+        font-size: 1.4em;
+        /* margin-top: 4vh; */
+    }
+
+    .row3 button {     
+        font-size: 1rem;
+    }
+
+    #babe span {
+        font-size: 0.9rem;
+    }
+}
+
     
 }
 
 @media (max-width: 414px) {
     .green img{
-        width: 14em;
+        width: 13em;
     }
     
+}
+
+
+@media (max-width: 412px) {
+.green img {
+    width: 14em;
+}
+
 }
 
 @media (max-width:390px) {
@@ -94,7 +386,7 @@
 
 @media (max-width: 375px) {
     .green img {
-        width: 13em;
+        width: 12em;
     }
 
     .img img {
@@ -115,4 +407,39 @@
     }
 
      
+}
+
+@media (max-width: 280px) {
+    .img img {
+        width: 13em;
+    }
+
+    .green img {
+        width: 10em;
+    }
+
+    .green {
+        width: 70%;
+    }
+
+    .row3 div {
+        width: 12em;
+    }
+
+    .cl img {
+        width: 12em;
+    }
+
+    #p {
+        font-size: 1rem;
+        /* margin-top: 4vh; */
+    }
+
+    .row3 button {
+        font-size: 0.6rem;
+    }
+
+    #babe span {
+        font-size: 0.6rem;
+    }
 }
